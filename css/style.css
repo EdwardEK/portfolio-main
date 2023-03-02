@@ -367,7 +367,8 @@ textarea {
 .home-hero__cta1 {  
   text-align: center;
   justify-content: center;
-  margin-top: 8rem; } 
+  margin-top: 8rem; 
+  margin-bottom: 3rem; } 
  
 .ellipse-1 {
   display: flex;
@@ -431,10 +432,10 @@ textarea {
   display: block;
   color: #fefefe;
   font-size: 2.5rem;
-  font-weight: 500;
+  font-weight: 600;
   max-width: 70rem;
   margin: auto;
-  line-height: 1.4;
+  line-height: 1.8;
   margin-bottom: 2rem;  }
   @media only screen and (max-width: 37.5em) {
     .about__content-title {
@@ -457,6 +458,7 @@ textarea {
 /* Skills Section */
 .skills {
   margin-top: 0;
+  margin-bottom: 3rem; 
   display: flex;
   justify-content: center;
   flex-wrap: wrap; }
@@ -681,7 +683,7 @@ textarea {
   font-family: 'Raleway',sans-serif;
   background-color: #0b3954;
   padding: 4rem 0;
-  color: #ff6663;
+  color: #BFD7EA;
   font-size: 1.5rem;
   text-align: left;
   text-transform: uppercase;
