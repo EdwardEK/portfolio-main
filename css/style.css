@@ -365,14 +365,9 @@ textarea {
   margin-top: 3rem;  }
     
 .home-hero__cta1 {  
-  margin-bottom: 6rem;
-  margin-top: 3rem;
-  margin-left: 3rem;}
-  @media only screen and (max-width: 56.25em) { 
-    .home-hero__cta1 {
-      text-align: center;
-      justify-content: center;
-      margin: 0; } }
+  text-align: center;
+  justify-content: center;
+  margin-top: 8rem; } 
  
 .ellipse-1 {
   display: flex;
@@ -418,49 +413,50 @@ textarea {
 
 /* About Section */
 .about {
-  background: #FF6663; }
+  background: #FF6663;  }
 
 .about__content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 5 , 1fr;
   grid-gap: 10rem; }
   @media only screen and (max-width: 56.25em) {
     .about__content {
-      display: flex;
-      grid-gap: 3rem; 
-      justify-content: center;
-      flex-wrap: wrap; } }
+      display: flex; } }
 
 .about__content-details-para {
-  justify-content: center; }  
+  justify-content: center;  
+  margin-bottom: 0; }
 
 .about__content-title {
-  text-align: center;
-  margin-top: 2rem;
-  color: #FEFFFE; 
-  font-weight: 600;
-  font-size: 2rem;
-  margin-bottom: 0rem; }
+  display: block;
+  color: #fefefe;
+  font-size: 2.5rem;
+  font-weight: 500;
+  max-width: 70rem;
+  margin: auto;
+  line-height: 1.4;
+  margin-bottom: 2rem;  }
   @media only screen and (max-width: 37.5em) {
     .about__content-title {
+      text-align: center;
       font-size: 2.4rem; } 
     .about__content-details-para {
       text-align: center;
       justify-content: center; } }
 
 .about__content-details-para {
-  margin-top: 0rem;
-  padding: 25px; 
-  font-weight: 300;
-  font-size: 1.8rem;
-  color: #FEFFFE;
-  max-width: 60rem;
-  line-height: 1.7;
-  margin-bottom: 1rem; }
+  display: block;
+  color: #fefefe;
+  font-size: 2rem;
+  font-weight: 400;
+  max-width: 70rem;
+  margin: auto;
+  line-height: 1.6;
+  width: 100%; }
 
 /* Skills Section */
 .skills {
-  margin-top: 4rem; 
+  margin-top: 0;
   display: flex;
   justify-content: center;
   flex-wrap: wrap; }
@@ -474,14 +470,20 @@ textarea {
   margin-right: 1rem;
   font-size: 1.6rem;
   font-family: 'Raleway', sans-serif;
-  background: #BfD7EA; 
+  background: #ff6663; 
   border-radius: 5px;
   font-weight: 500;
   color: #0b3954; }
-          
+
+
+
 /* Projects Section */
+.projects {
+  border: 5px solid #0b3954; 
+}
 .projects__row {
   display: grid;
+  border: 2px; 
   grid-template-columns: 2.5fr 2fr;
   grid-gap: 6rem;
   margin-bottom: 11rem; }
