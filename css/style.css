@@ -481,7 +481,7 @@ textarea {
 
 /* Projects Section */
 .projects {
-  border: 5px solid #0b3954; 
+  border: 20px solid #0b3954; 
 }
 .projects__row {
   display: grid;
@@ -544,7 +544,7 @@ textarea {
     .project-details__links {
       margin: 0 0; }
     .project-details__links-btn {         
-      margin: 3rem;
+      margin: 2rem;
       margin-right: 1rem; } }
 
 .project-skills {
