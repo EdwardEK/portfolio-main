@@ -34,10 +34,4 @@ headerLogoContainer.addEventListener("click", () => {
   location.href = "index.html";
 });
 
-const httpsRedirect = () => {
-  if (location.protocol !== 'https:')
-    location.replace('https://' + location.href.split('//')[1]);
-};
 
-httpsRedirect();
-// Redirect from http://edwardkane.com to https://edwardkane.com

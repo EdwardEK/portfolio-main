@@ -152,7 +152,7 @@ textarea {
   text-transform: uppercase;
   display: inline-block;
   font-weight: 700;
-  border-radius: 30px;
+  border-radius: 0px;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
   transition: transform .3s; }
 
@@ -190,6 +190,18 @@ textarea {
   margin-left: 3rem; }
 
 .resume-link:hover {
+  transform: translateY(-1px); 
+  cursor: pointer; }
+
+.klaviyo-link {
+  color:#0b3954; 
+  font-family:'Raleway', sans-serif; 
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1.2rem; }
+
+.klaviyo-link:hover {
   transform: translateY(-1px); 
   cursor: pointer; }
 
