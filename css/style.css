@@ -174,7 +174,7 @@ textarea {
 
 .btn--theme {
   background-color: #0b3954;
-  color:#fefefe; }
+  color: #fefefe; }
 
 .btn--theme-inv {
   color: #fefefe;
@@ -452,7 +452,7 @@ textarea {
 
 .about__content-title {
   display: block;
-  color: #0b3954;
+  color: #0b3954; 
   font-family: 'Playfair Display', serif;
   font-size: 4rem;
   font-weight: 700;
