@@ -151,7 +151,7 @@ textarea {
   background-color: #0b3954; ; 
   font-family: 'Playfair Display', serif;
   border: 4px solid #0b3954;
-  color: #BFD7EA;
+  color: #fefefe;
   text-transform: uppercase;
   display: inline-block;
   letter-spacing: .5px;
@@ -174,10 +174,10 @@ textarea {
 
 .btn--theme {
   background-color: #0b3954;
-  color:#BFD7EA; }
+  color:#fefefe; }
 
 .btn--theme-inv {
-  color: #BFD7EA;
+  color: #fefefe;
   background-color: #0b3954;
   margin-left:15px; 
   letter-spacing: .5px;
@@ -452,7 +452,7 @@ textarea {
 
 .about__content-title {
   display: block;
-  color: #BFD7EA;
+  color: #0b3954;
   font-family: 'Playfair Display', serif;
   font-size: 4rem;
   font-weight: 700;
