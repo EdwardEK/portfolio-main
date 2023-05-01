@@ -533,9 +533,7 @@ textarea {
   margin-right: auto;
   width: 100%;
   height: auto; }
-  @media only screen and (max-width:37.5em) {
-    .projects_video {
-     display:none; } }
+ 
 
 .projects__row-content {
   padding: 2rem 0;
