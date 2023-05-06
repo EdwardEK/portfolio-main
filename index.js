@@ -41,4 +41,3 @@ const httpsRedirect = () => {
 
 httpsRedirect();
 // Redirect from http://edwardkane.com to https://edwardkane.com
-

@@ -55,11 +55,11 @@ textarea {
   resize: none; }
 
 /* Heading Sections */
-.first_text h1{
+.intro_text h1 {
   font-family: 'Raleway', sans-serif;
   text-align: left;
   color: #BFD7EA;
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 400}
   
 .heading-primary {
@@ -67,7 +67,7 @@ textarea {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
-  font-size: 7rem;
+  font-size: 6rem;
   text-align: left; }
   @media only screen and (max-width: 37.5em) {
     .heading-primary {
@@ -334,12 +334,12 @@ textarea {
   text-align: left; 
   font-weight: 400;
   color: #0b3954; 
-  font-size: 2rem;
-  width: 70%;
+  font-size: 1.8rem;
+  width: 60%;
   line-height: 1.6; }
   @media only screen and (max-width: 37.5em) {
     .text-primary {
-      font-size: 2rem; } }
+      font-size: 1.5rem; } }
 
 .d-none {
   display: none; }
@@ -552,8 +552,9 @@ textarea {
   color:#0b3954; 
   max-width: 50rem;
   line-height: 1.7;
-  margin-bottom: 2rem;; 
-}
+  text-align: left;
+  margin-bottom: 2rem; }
+
 .projects__row-content-title {
   color:#ff6663; 
   justify-content: center;
