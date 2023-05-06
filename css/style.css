@@ -336,6 +336,7 @@ textarea {
   color: #0b3954; 
   font-size: 1.8rem;
   width: 60%;
+  margin-top: 1.5rem;
   line-height: 1.6; }
   @media only screen and (max-width: 37.5em) {
     .text-primary {
@@ -384,13 +385,13 @@ textarea {
     
 .home-hero__cta {
   margin-bottom: 6rem;
-  margin-top: 3rem;  }
+  margin-top: 8rem;  }
     
 .home-hero__cta1 {  
   text-align: center;
   justify-content: center;
   margin-top: 8rem; 
-  margin-bottom: 3rem; } 
+  margin-bottom: 6rem; } 
  
 .ellipse-1 {
   display: flex;
