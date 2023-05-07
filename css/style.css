@@ -342,6 +342,18 @@ textarea {
     .text-primary {
       font-size: 1.5rem; } }
 
+.text-primary-second {
+  font-family:'Raleway', sans-serif;
+  text-align: left; 
+  font-weight: 600;
+  color: #0b3954; 
+  font-size: 1.8rem;
+  width: 60%;
+  margin-top: 1.5rem;
+  line-height: 1.6; }
+  @media only screen and (max-width: 37.5em) {
+    .text-primary {
+      font-size: 1.5rem; } }
 .d-none {
   display: none; }
 
@@ -480,6 +492,22 @@ textarea {
   line-height: 1.6;
   width: 100%; }
 
+.about__list { 
+  color:#0b3954; 
+  display: block;
+  text-align: left;
+  list-style-position: inside;
+  text-indent: -.6em;
+  padding-left: 1em;
+  font-size: 1.8rem;
+  font-weight: 500;
+  max-width: 70rem;
+  margin: auto;
+  line-height: 1.6;
+  width: 100%; 
+
+}
+
 /* Skills Section */
 .skills {
   margin-top: 0;
@@ -534,8 +562,7 @@ textarea {
   margin-right: auto;
   width: 100%;
   height: auto; }
- 
-
+  
 .projects__row-content {
   padding: 2rem 0;
   display: flex;
@@ -549,6 +576,8 @@ textarea {
 .project_list {
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
+  list-style-position: inside;
+  text-indent: -.7em;
   font-size: 1.2rem;
   color:#0b3954; 
   max-width: 50rem;
